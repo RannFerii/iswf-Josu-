@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:800px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="">Listas desordenadas</a>
+				<ul>
+                                                                                                                 
+                                                                                                                <li><a href="tarea.html" target="_blank">Click aqui</a></li>
+					</ul>
+				</li>
+
+                                                  
+				<li><a href="">Listas ordenadas</a>
+					<ul>
+                                                                                                                 
+                                                                                                                <li><a href="listas ordenadas ordinarios.html" target="_blank">ordinarios</a></li>
+					                  <li><a href="listas ordenadas romanos.html" target="_blank">romanos</a></li>
+					</ul>
+				</li>
+				<li><a href="">Imagenes</a>
+					<ul>
+						<img src="imagenes/3.jpg" width="400" height="400"> <!-- width="50%" ó height="50%" -->
+					</ul>
+				</li>
+				<li><a href="">Tablas</a>
+					<ul>
+                                                                                                                 
+                                                                                                                <li><a href="tablas.html" target="_blank">Mostrar</a></li>
+					                  
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</body>
+</html>
