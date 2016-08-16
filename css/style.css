@@ -1,5 +1,6 @@
 style.css
 html, body {
-background: #000000;
+background: red;
 color: #ffffff;
 }
+h1{ color:yellow; }
